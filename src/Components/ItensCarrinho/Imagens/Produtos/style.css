@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.Bainner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    width: 80%;
+}
+.Tenis 
+{
+ width: 100px;
+ height: 100px;   
+ border-radius: 70%;
+}
+
+.imagemProduto{
+    display: flex;
+    padding: 2em;
+}
+
+.texto{
+    
+    padding: 15px 0 0 30px;
+}
+.texto .prod{
+     margin-bottom: 20px; 
+     ;
+}
+
+.carrinho{
+    margin-left: 700px;
+    margin-top: 15px;
+    width: 180px;
+
+}
