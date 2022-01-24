@@ -2,12 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+.carro{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2em 3em 0 0;
+    cursor: pointer;
+  
+}
+
+
+.tamCarro{
+    width: 400px;
+    height: 400px;
+}
 .titulo
 {
     display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 10px;
+    padding: 0 0 1em 9em;
+    margin-top: 50px;
+    /* margin-bottom: 10px; */
+}
+.lista_produto{
+  font-weight: bold;
+  color: #000;
 }
 .Bainner {
     display: flex;
@@ -31,8 +49,8 @@
 }
 
 .texto{
-    
     padding: 15px 0 0 30px;
+   color: #000;
 }
 .texto .prod{
      margin-bottom: 20px; 
@@ -40,8 +58,8 @@
 }
 
 .carrinho{
-    margin-left: 700px;
-    margin-top: 15px;
+    display: flex;
+    margin-left: 600px;
     width: 180px;
-
+    
 }

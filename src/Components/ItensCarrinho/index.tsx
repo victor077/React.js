@@ -7,15 +7,15 @@ import '../ItensCarrinho/Imagens/Produtos/style.css'
 import Box  from '@mui/material/Box';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-
 const ItensCarrinho = () => {
   return (
   
    <Box>
-       
-       <ShoppingCartIcon />
+       <Box className='carro' >
+       <ShoppingCartIcon className='carro2'/>
+       </Box>
        <Box className='titulo'>
-       <Typography variant = 'h4'>Lista de Produtos</Typography>
+       <Typography className='lista_produto' variant = 'h4'>Lista de Produtos</Typography>
        </Box>
 
        <Box className='Bainner'>
